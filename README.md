@@ -53,4 +53,4 @@ npx nuxi dev --public
 Make sure that the `Network` url on the command line output matches the `url` ref on line 18 in file `/app/pages/index.vue`
 
 ### App Structure
-On the app there are two buttons, the one on the left demostrates the current functionality of trying the use SSE in Capacitor 8 that is detailed in [#6582](https://github.com/ionic-team/capacitor/issues/6582). The button on the right shows SSE working with the help of [capacitor-stream-http-v2](https://www.jsdelivr.com/package/npm/capacitor-stream-http-v2).
+On the app there are two buttons, the one on the left demonstrates the current functionality of trying the use SSE in Capacitor 8 that is detailed in [#6582](https://github.com/ionic-team/capacitor/issues/6582). The button on the right shows SSE working with the help of [capacitor-stream-http-v2](https://www.jsdelivr.com/package/npm/capacitor-stream-http-v2).
