@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-sse",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "mobile": "npm run generate && npx cap sync",
+    "mobile:ios": "npm run mobile && npx cap open ios",
+    "mobile:android": "npm run mobile && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/app": "^8.1.0",
+    "@capacitor/core": "^8.3.4",
+    "@capacitor/ios": "^8.3.4",
+    "@capacitor/keyboard": "^8.0.3",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/splash-screen": "^8.0.1",
+    "@capacitor/status-bar": "^8.0.2",
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "capacitor-stream-http-v2": "^0.1.7",
+    "nuxt": "^4.4.6",
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.7"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.3.4",
+    "nuxt-security": "^2.6.0",
+    "typescript": "^6.0.3"
+  }
+}
