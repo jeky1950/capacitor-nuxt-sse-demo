@@ -90,4 +90,9 @@ onMounted(async () => {
         alert(JSON.stringify(data))
     });
 })
+
+onBeforeUnmount(async () => {
+    // @ts-expect-error
+    await StreamHttp.removeAllListeners();
+});
 </script>
